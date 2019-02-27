@@ -14,7 +14,7 @@ public void mouseDragged()//optional
 public void sierpinski(int x, int y, int len,int a) 
 {
   if (len<=5){
-    fill(25,50,70);
+    //fill(25,50,70);
     rect(x,y,x+len/2,y-len,x+len,y,x+a,y);
   }else{
     sierpinski(x,y,len/2,a/2);
